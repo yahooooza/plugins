@@ -26,7 +26,7 @@ import java.util.Set;
 /** SharedPreferencesPlugin */
 @SuppressWarnings("unchecked")
 public class SharedPreferencesPlugin implements MethodCallHandler {
-  private static final String SHARED_PREFERENCES_NAME = "FlutterSharedPreferences";
+  private static final String SHARED_PREFERENCES_NAME = "de.matz_software.ifutest_preferences";
   private static final String CHANNEL_NAME = "plugins.flutter.io/shared_preferences";
 
   // Fun fact: The following is a base64 encoding of the string "This is the prefix for a list."
